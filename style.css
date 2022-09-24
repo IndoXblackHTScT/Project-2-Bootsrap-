@@ -1,0 +1,141 @@
+.cont-bo {
+  position: static;
+  border: solid 2px grey;
+  border-radius: 5px;
+  margin-left: 5%;
+  box-shadow: 0px 3px 3px grey;
+}
+/* Gunanya Media Type Adalah Untuk Membuat Codingan(web) lebih responsive */
+@media only screen and (max-width: 720px) {
+  .cont-bo {
+    position: relative;
+    width: auto;
+    margin-left: -5%;
+  }
+}
+.product-box {
+  background-color: white;
+  height: 335px;
+  margin-left: 5%;
+  border: solid 2px rgb(201, 199, 199);
+  border-radius: 10px;
+}
+@media only screen and (max-width: 720px) {
+  .product-box {
+    width: auto;
+    margin-left: -5%;
+    height: auto;
+  }
+}
+.ifr {
+  width: 500px;
+  height: 400px;
+}
+@media only screen and (max-width: 720px) {
+  .ifr {
+    padding: 0;
+    margin: auto;
+    width: auto;
+    height: 400px;
+  }
+}
+.box-kon {
+  border: solid 2px grey;
+  margin-left: 110%;
+  margin-right: -99%;
+}
+.title-kon {
+  font-size: 15px;
+  margin-left: 22%;
+  margin-top: -20%;
+}
+.text-kon {
+  font-size: 14px;
+  margin-top: -0%;
+  margin-left: 22%;
+}
+.box-kon1 {
+  border: solid 2px grey;
+  margin-top: 40%;
+  margin-left: 1%;
+  margin-right: 10%;
+}
+.title-kon1 {
+  font-size: 15px;
+  margin-left: 22%;
+  margin-top: -20%;
+}
+.text-kon1 {
+  font-size: 14px;
+  margin-top: -0%;
+  margin-left: 22%;
+}
+.box-kon2 {
+  border: solid 2px grey;
+  margin-top: 80%;
+  margin-left: -108%;
+  margin-right: 119%;
+}
+.title-kon2 {
+  font-size: 15px;
+  margin-left: 22%;
+  margin-top: -21%;
+}
+.text-kon2 {
+  font-size: 14px;
+  margin-top: -0%;
+  margin-left: 22%;
+}
+@media only screen and (max-width: 720px) {
+  .box-kon {
+    border: solid 2px grey;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .title-kon {
+    font-size: 15px;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  .text-kon {
+    font-size: 14px;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+  .box-kon1 {
+    border: solid 2px grey;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .title-kon1 {
+    font-size: 15px;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  .text-kon1 {
+    font-size: 14px;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+  .box-kon2 {
+    border: solid 2px grey;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .title-kon2 {
+    font-size: 15px;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  .text-kon2 {
+    font-size: 14px;
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+}
+body {
+  min-height: 2000px;
+  max-height: 1000px;
+}
